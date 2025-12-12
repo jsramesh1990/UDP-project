@@ -1,0 +1,11 @@
+PROJECT/
+│
+├── SERVER/
+│     └── server.c         ← C (UDP Server)
+│
+├── CLIENT/
+│     └── client.cpp       ← C++ (UDP Client)
+│
+└── APPLICATION_GUI/
+      └── gui.py           ← Python Tkinter GUI Application
+

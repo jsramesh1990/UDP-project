@@ -1,0 +1,72 @@
+# =========================================================
+#    UNIVERSAL MAKEFILE – SERVER + CLIENT + QT GUI
+# =========================================================
+
+# ----------- SERVER (C) ----------------
+SERVER_DIR = SERVER
+SERVER_SRC = $(SERVER_DIR)/server.c
+SERVER_BIN = $(SERVER_DIR)/server
+SERVER_CC  = gcc
+SERVER_FLAGS = -Wall
+
+
+# ----------- CLIENT (C++) --------------
+CLIENT_DIR = CLIENT
+CLIENT_SRC = $(CLIENT_DIR)/client.cpp
+CLIENT_BIN = $(CLIENT_DIR)/client
+CLIENT_CXX = g++
+CLIENT_FLAGS = -std=c++17 -Wall
+
+
+# ----------- QT GUI (C++ / Qt) ---------
+APP_DIR = APPLICATION_GUI
+APP_PRO = $(APP_DIR)/udp_gui.pro
+APP_BIN = $(APP_DIR)/udp_gui
+
+
+# =========================================================
+# DEFAULT: build everything
+# =========================================================
+all: server client gui
+	@echo "-------------------------------------------"
+	@echo " ALL BUILDS COMPLETED SUCCESSFULLY "
+	@echo "-------------------------------------------"
+
+
+# =========================================================
+# SERVER BUILD
+# =========================================================
+server:
+	@echo "Building SERVER..."
+	$(SERVER_CC) $(SERVER_FLAGS) $(SERVER_SRC) -o $(SERVER_BIN)
+	@echo "Server build complete."
+
+
+# =========================================================
+# CLIENT BUILD
+# =========================================================
+client:
+	@echo "Building CLIENT..."
+	$(CLIENT_CXX) $(CLIENT_FLAGS) $(CLIENT_SRC) -o $(CLIENT_BIN)
+	@echo "Client build complete."
+
+
+# =========================================================
+# QT GUI BUILD (using qmake)
+# =========================================================
+gui:
+	@echo "Building Qt GUI..."
+	cd $(APP_DIR) && qmake udp_gui.pro && $(MAKE)
+	@echo "GUI build complete."
+
+
+# =========================================================
+# CLEAN
+# =========================================================
+clean:
+	@echo "Cleaning all builds..."
+	@rm -f $(SERVER_BIN)
+	@rm -f $(CLIENT_BIN)
+	@cd $(APP_DIR) && rm -rf *.o Makefile moc_* qrc_* *.qmlc *.jsc udp_gui
+	@echo "Clean complete."
+
