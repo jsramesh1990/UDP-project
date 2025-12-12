@@ -1,4 +1,25 @@
 ##  UDP Client-Server Project
+
+UDP (User Datagram Protocol) is a connectionless transport layer protocol. Unlike TCP:
+
+There is no connection setup (no handshake).
+
+It is faster and has lower overhead.
+
+Packets may be lost — UDP does not guarantee delivery.
+
+Useful for real-time applications, streaming, or lightweight messaging.
+
+```
+| Feature     | UDP                                 | TCP                                |
+| ----------- | ----------------------------------- | ---------------------------------- |
+| Connection  | Connectionless                      | Connection-oriented                |
+| Reliability | Unreliable                          | Reliable, guaranteed               |
+| Ordering    | No ordering                         | Ordered                            |
+| Overhead    | Low                                 | Higher (handshake, acknowledgment) |
+| Use Cases   | Streaming, games, real-time control | File transfer, web, email          |
+```
+
 #  Overview
 
 This project demonstrates a UDP-based communication system with three components:
