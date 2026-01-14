@@ -1,5 +1,33 @@
 ##  UDP Client-Server Project
 
+[![UDP Protocol](https://img.shields.io/badge/UDP-Protocol-blue.svg)](https://en.wikipedia.org/wiki/User_Datagram_Protocol)
+[![Network Programming](https://img.shields.io/badge/Network-Programming-orange.svg)](https://en.wikipedia.org/wiki/Computer_network_programming)
+[![Socket Programming](https://img.shields.io/badge/Socket-Programming-green.svg)](https://en.wikipedia.org/wiki/Network_socket)
+[![Connectionless Protocol](https://img.shields.io/badge/Connectionless-Transport%20Layer-red.svg)](https://en.wikipedia.org/wiki/Connectionless_communication)
+[![Client-Server Architecture](https://img.shields.io/badge/Client--Server-Architecture-yellow.svg)](https://en.wikipedia.org/wiki/Client%E2%80%93server_model)
+[![C Programming](https://img.shields.io/badge/C-Network%20Programming-purple.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![Real-Time Applications](https://img.shields.io/badge/Real--Time-Applications-8b0000.svg)](https://en.wikipedia.org/wiki/Real-time_computing)
+[![Low Latency](https://img.shields.io/badge/Low-Latency-0066cc.svg)](https://en.wikipedia.org/wiki/Latency_(engineering))
+[![Datagram Communication](https://img.shields.io/badge/Datagram-Communication-lightgrey.svg)](https://en.wikipedia.org/wiki/Datagram)
+[![Transport Layer](https://img.shields.io/badge/Transport-Layer%204-ff69b4.svg)](https://en.wikipedia.org/wiki/Transport_layer)
+[![IP Networking](https://img.shields.io/badge/IP-Networking-009688.svg)](https://en.wikipedia.org/wiki/Internet_Protocol)
+[![BSD Sockets](https://img.shields.io/badge/BSD-Sockets-blueviolet.svg)](https://en.wikipedia.org/wiki/Berkeley_sockets)
+[![Unreliable Delivery](https://img.shields.io/badge/Unreliable-Delivery-32CD32.svg)](https://en.wikipedia.org/wiki/Best-effort_delivery)
+[![Streaming Protocol](https://img.shields.io/badge/Streaming-Protocol-FF8C00.svg)](https://en.wikipedia.org/wiki/Streaming_media)
+[![Message-Oriented](https://img.shields.io/badge/Message--Oriented-Protocol-181717.svg)](https://en.wikipedia.org/wiki/Message_oriented_middleware)
+[![Network Utilities](https://img.shields.io/badge/Network-Utilities-333333.svg)](https://en.wikipedia.org/wiki/Network_utility)
+[![Linux/Unix](https://img.shields.io/badge/Linux-Unix%20Sockets-brightgreen.svg)](https://en.wikipedia.org/wiki/Unix_domain_socket)
+[![Multicast Support](https://img.shields.io/badge/Multicast-Broadcast%20Support-4B0082.svg)](https://en.wikipedia.org/wiki/Multicast)
+[![Port Communication](https://img.shields.io/badge/Port-Communication-800000.svg)](https://en.wikipedia.org/wiki/Port_(computer_networking))
+[![Non-Blocking IO](https://img.shields.io/badge/Non--Blocking-IO-2E8B57.svg)](https://en.wikipedia.org/wiki/Asynchronous_I/O)
+[![Header Overhead](https://img.shields.io/badge/Low-Overhead%20Protocol-483D8B.svg)](https://en.wikipedia.org/wiki/Protocol_overhead)
+[![VoIP Compatible](https://img.shields.io/badge/VoIP-Compatible-8A2BE2.svg)](https://en.wikipedia.org/wiki/Voice_over_IP)
+[![Gaming Network](https://img.shields.io/badge/Gaming-Network%20Protocol-DAA520.svg)](https://en.wikipedia.org/wiki/Online_game)
+[![DNS Protocol](https://img.shields.io/badge/DNS-Underlying%20Protocol-2F4F4F.svg)](https://en.wikipedia.org/wiki/Domain_Name_System)
+[![Multithreaded Server](https://img.shields.io/badge/Multithreaded-Server-FF4500.svg)](https://en.wikipedia.org/wiki/Thread_(computing))
+[![Cross-Platform Networking](https://img.shields.io/badge/Cross--Platform-Networking-00CED1.svg)](https://en.wikipedia.org/wiki/Cross-platform)
+[![Educational Project](https://img.shields.io/badge/Educational-Networking%20Project-9400D3.svg)](https://en.wikipedia.org/wiki/Educational_technology)
+
 UDP (User Datagram Protocol) is a connectionless transport layer protocol. Unlike TCP:
 
 There is no connection setup (no handshake).
