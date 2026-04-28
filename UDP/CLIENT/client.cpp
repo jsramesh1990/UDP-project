@@ -3,7 +3,7 @@
 #include <arpa/inet.h>
 #include <unistd.h>
 
-#define PORT 8080
+#define PORT 8080    //use for connect with server
 
 int main() {
     int sockfd;
